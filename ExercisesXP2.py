@@ -17,7 +17,7 @@ class PetDog(Dog):
         print(f"{dogNames}all play together")
     def do_a_trick(self):
         tricks = ["does a barrel roll", "stands on his back legs", "shakes your hand", "plays dead"]
-        myRandom=random.randint(1, 4)
+        myRandom=random.randint(0, len(tricks)-1)
         if(self.trained==True):
             print(tricks[myRandom])
 my_dog = PetDog("Fido", 2, 10)

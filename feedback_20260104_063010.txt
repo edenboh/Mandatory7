@@ -1,0 +1,13 @@
+URL: https://github.com/edenboh/Mandatory7/blob/main/ExercisesXP.py
+suggestions for improvement:
+- In Exercise 1, the `Siamese` class doesn't need to reimplement the `sing` method if it's the same as the parent class. It can inherit directly.
+- In Exercise 3, you skipped the exercise. It is missing from the provided code.
+- In exercise 4, you can improve the `check_majority` method to return after finding the person to avoid unnecessary looping.
+Correctness: 83.0%
+-----
+URL: https://github.com/edenboh/Mandatory7/blob/main/ExercisesXP2.py
+suggestions for improvement:
+- Consider using more descriptive variable names to enhance readability.
+- The `play` method could be improved by using a list comprehension for cleaner string concatenation.
+Correctness: 100%
+-----
